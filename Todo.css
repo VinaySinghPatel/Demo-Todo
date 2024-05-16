@@ -1,0 +1,142 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    
+}
+body{
+    background-color: bisque;
+}
+.Todo{
+    /* justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center; */
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+#FirstMain{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color:cornflowerblue;
+    padding: 0.5em;
+    box-shadow: 0px 0px 10px black;
+}
+#Nav_H3{
+    color: black;
+    font-size: 1.5em;
+}
+#MAinBOX{
+    overflow: auto;
+    height: 70vh;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+#Parent{
+    margin-top: 0.8em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-color: bisque;
+}
+#Search_Button{
+    margin-top: 4em;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#input_Holder{
+    padding: 0.5em;
+    width: 30em;
+    margin-left: 0.5em;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 8px;
+}
+
+#Submit_Button{
+    background-color: cornflowerblue;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 8px;
+}
+i{
+font-size: 1.5em;
+   /* margin-right: 35em; */
+}
+#Home_Button{
+    background-color: white;
+    color: black;
+    /* background-color: cornflowerblue; */
+    padding: 0.5em;
+    margin-left: 35em;
+    border-radius: 10px;
+}
+#New_Button{
+    background-color: white;
+    color: black;
+    /* background-color: cornflowerblue; */
+    padding: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 10px;
+}
+#Daily_Tag{
+
+}
+#NavDiv{
+    margin-left: 0em;
+    background-color: cornflowerblue;
+    padding: 0.3em;
+}
+/* #Your_Todo{
+    border-radius: 8px;
+    margin-top: 0.5em;
+    margin-left: 25vh;
+    height: 45vh;
+    width: 73vh;
+    background-color: white;
+} */
+#Todo-List{
+    margin-top: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    margin-left: 10em;
+    align-items: center;
+}
+#New_Todos .li{
+margin-left: 3em;   
+overflow: auto; 
+}
+#New_Todos{
+    height: 44vh;
+    overflow: auto;
+}
+button{
+    color: black;
+    background-color:black;
+}
+#DELETE_BUTTON{
+    padding: 0.5em;
+    color: black;
+    background-color:rgb(214, 20, 20);
+    border-radius: 10px;
+}
+
+i{
+    margin-left: 1em;
+    cursor:auto;
+}
